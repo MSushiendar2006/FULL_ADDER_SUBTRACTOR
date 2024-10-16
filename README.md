@@ -41,11 +41,13 @@ Borrow out = A'Bin + A'B + BBin
 
 ## Procedure:
 
+```
 STEP-1 Open Quartus Prime software.
 STEP-2 Create a new project and select the target FPGA device.
 STEP-3 Design and implement the full adder/subtractor using Verilog or VHDL within a new HDL file.
 STEP-4 Add the HDL file to the project and compile the design.
 STEP-5 Program the FPGA with the compiled design to test the functionality of the full adder/subtractor.
+```
 
 # Program:
 
