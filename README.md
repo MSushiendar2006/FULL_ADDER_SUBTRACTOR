@@ -52,7 +52,22 @@ STEP-5 Program the FPGA with the compiled design to test the functionality of th
 # Program:
 
 ```
-Full Adder
+#Full adder
+module fulladder(a,b,cin,sum,carry);
+input a,b,cin;
+output sum, carry;
+assign sum=(a^b^cin);
+assign carry=((a&b)|(b&cin)|(cin&a));
+endmodule
+
+#Full Subtractor
+module fullsubractor(a,b,bin,borr,diff);
+input a,b,bin;
+output diff, borr;
+assign diff=(a^b^bin);
+assign borr=((~a&b)|(b&bin)|(bin&~a));
+endmodule
+
 
 
 ```
@@ -65,7 +80,10 @@ Full Adder
 
 
 # RTL:
-![image](https://github.com/user-attachments/assets/6aed7605-b89a-48d0-857a-65e87eb4f67e)
+#FULL ADDER
+![FA RTL](https://github.com/user-attachments/assets/bed46df2-925a-4c49-8327-96f16d3bb4a3)
+#FULL SUBTRACTOR
+![FS RTL](https://github.com/user-attachments/assets/e939939e-7400-4c05-b3a5-5ff75df446b6)
 
 
 
@@ -73,16 +91,14 @@ Full Adder
 ```
 FULL ADDER
 ```
-(https://github.com/user-attachments/assets/75e15a41-8be5-480a-a67a-691818276145)
+![FA](https://github.com/user-attachments/assets/75e15a41-8be5-480a-a67a-691818276145)
+
 ```
 Full Subtractor
 ```
 ![FS](https://github.com/user-attachments/assets/63813acc-0a94-42a9-a683-7644f433734c)
 
 
-
-
 # Result:
-
 Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
 
