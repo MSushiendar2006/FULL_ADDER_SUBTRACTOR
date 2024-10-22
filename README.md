@@ -84,8 +84,7 @@ endmodule
 ![image](https://github.com/user-attachments/assets/614a308d-b243-4950-9db7-e18cb05a39b5)
 
 ## FULL SUBTRACTOR
-![snjs8uvy](https://github.com/user-attachments/assets/a3c6c9e1-b947-4718-a761-18263d0c224e)
-
+![image](https://github.com/user-attachments/assets/16f5bec4-ebf4-42ee-b2e0-164d47b32ba7)
 
 
 
