@@ -52,16 +52,9 @@ STEP-5 Program the FPGA with the compiled design to test the functionality of th
 # Program:
 
 ```
-module fulladdsub(a,b,c,sum,carry,BO,DIFF);
-input a,b,c;
-output sum,carry,BO,DIFF;
-assign sum=a^b^c;
-assign carry= a&b | a&c | b&c;
-wire a0;
-not (a0,a);
-assign BO= b&c | a0&c | a0&b;
-assign DIFF=a^b^c;
-endmodule
+Full Adder
+
+
 ```
 
 ## Truthtable:
@@ -72,11 +65,20 @@ endmodule
 
 
 # RTL:
-![image](https://github.com/arbasil05/FULL_ADDER_SUBTRACTOR/assets/144218037/776457b8-69fb-4627-87a1-4c58b479b2c9)
+![image](https://github.com/user-attachments/assets/6aed7605-b89a-48d0-857a-65e87eb4f67e)
+
 
 
 # Output:
-![image](https://github.com/arbasil05/FULL_ADDER_SUBTRACTOR/assets/144218037/db43bff2-a490-4df7-8099-e8dfba237afa)
+```
+FULL ADDER
+```
+(https://github.com/user-attachments/assets/75e15a41-8be5-480a-a67a-691818276145)
+```
+Full Subtractor
+```
+![FS](https://github.com/user-attachments/assets/63813acc-0a94-42a9-a683-7644f433734c)
+
 
 
 
