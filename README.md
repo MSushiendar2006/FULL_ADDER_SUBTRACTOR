@@ -80,9 +80,10 @@ endmodule
 
 
 # RTL:
-#FULL ADDER
-![FA RTL](https://github.com/user-attachments/assets/bed46df2-925a-4c49-8327-96f16d3bb4a3)
-#FULL SUBTRACTOR
+## FULL ADDER
+![image](https://github.com/user-attachments/assets/614a308d-b243-4950-9db7-e18cb05a39b5)
+
+## FULL SUBTRACTOR
 ![FS RTL](https://github.com/user-attachments/assets/e939939e-7400-4c05-b3a5-5ff75df446b6)
 
 
